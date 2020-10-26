@@ -4,7 +4,7 @@ let score = 20;
 let highscore = 0;
 let Number = a + (b - a) * Math.random();
 Number = Math.round(Number);
-console.log(Number);
+//console.log(Number);
 document.querySelector('.check').addEventListener('click', function () {
     const guess = (document.querySelector('.guess').value);
     if (!guess) {
